@@ -36,8 +36,8 @@ const permissions = shield({
     // all: isAuthenticated,
   },
   TaskMutate: {
-    create: isAuthenticated,
-    delete: isAuthenticated
+    // create: isAuthenticated,
+    // delete: isAuthenticated
   }
 });
 

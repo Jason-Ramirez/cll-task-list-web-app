@@ -62,7 +62,7 @@ const query = {
 }
 
 const mutation = {
-  create: async (_, args) => create(args.note),
+  create: async (_, args) => create(args.user_id, args.note),
   update: async (_, args) => update(args),
   delete: async (_, args) => del(args.id),
 }
